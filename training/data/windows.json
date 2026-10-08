@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "input": "..\\OrgPulse\\OrgPulse-API\\fixtures\\sandbox_demo.json",
+    "scopes": [
+      "channel",
+      "user"
+    ],
+    "min_messages": 1,
+    "min_chars": 0,
+    "messages_in": 12,
+    "messages_skipped_no_text": 0,
+    "windows_dropped_too_small": 0,
+    "windows_out": 10
+  },
+  "windows": [
+    {
+      "window_id": "sandbox-design|2025-08-20|channel",
+      "scope": "channel",
+      "channel_id": "sandbox-design",
+      "channel_name": "Design",
+      "user_id": null,
+      "user_name": null,
+      "date": "2025-08-20",
+      "message_ids": [
+        "des-1",
+        "des-2",
+        "des-3",
+        "des-4"
+      ],
+      "text": "[Maya Brooks]: Great progress on the new flow. Thanks everyone for the collaboration.\n[Chris Park]: I appreciate the clear feedback. Proud of what we achieved this week.\n[Maya Brooks]: Excellent review today. The team feels motivated and the support has been strong.\n[Chris Park]: Well done on the improved handoff. Excited to keep this success going.",
+      "n_messages": 4,
+      "n_chars": 351,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "sandbox-engineering|2025-08-20|channel",
+      "scope": "channel",
+      "channel_id": "sandbox-engineering",
+      "channel_name": "Engineering",
+      "user_id": null,
+      "user_name": null,
+      "date": "2025-08-20",
+      "message_ids": [
+        "eng-1",
+        "eng-2",
+        "eng-3",
+        "eng-4"
+      ],
+      "text": "[Alex Chen]: I am frustrated we cannot raise this with leadership. People feel ignored.\n[Priya Shah]: Same. I feel unsupported and isolated when I flag risks. It feels unfair.\n[Jordan Lee]: I am disappointed. Raising issues just gets us labeled as unmotivated.\n[Alex Chen]: Better to stay quiet. I do not want to look angry in standup.",
+      "n_messages": 4,
+      "n_chars": 335,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "sandbox-product|2025-08-20|channel",
+      "scope": "channel",
+      "channel_id": "sandbox-product",
+      "channel_name": "Product",
+      "user_id": null,
+      "user_name": null,
+      "date": "2025-08-20",
+      "message_ids": [
+        "prod-1",
+        "prod-2",
+        "prod-3",
+        "prod-4"
+      ],
+      "text": "[Sam Ortiz]: I am overwhelmed and exhausted. This deadline is not realistic.\n[Riley Nguyen]: The team is burned out and overloaded. Weekend work is becoming normal.\n[Sam Ortiz]: I am stressed and behind. If this pressure continues people will quit.\n[Riley Nguyen]: We are blocked and late on every sprint. I feel unsupported.",
+      "n_messages": 4,
+      "n_chars": 325,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "u-alex|2025-08-20|user",
+      "scope": "user",
+      "channel_id": "sandbox-engineering",
+      "channel_name": "Engineering",
+      "user_id": "u-alex",
+      "user_name": "Alex Chen",
+      "date": "2025-08-20",
+      "message_ids": [
+        "eng-1",
+        "eng-4"
+      ],
+      "text": "I am frustrated we cannot raise this with leadership. People feel ignored.\nBetter to stay quiet. I do not want to look angry in standup.",
+      "n_messages": 2,
+      "n_chars": 136,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "u-chris|2025-08-20|user",
+      "scope": "user",
+      "channel_id": "sandbox-design",
+      "channel_name": "Design",
+      "user_id": "u-chris",
+      "user_name": "Chris Park",
+      "date": "2025-08-20",
+      "message_ids": [
+        "des-2",
+        "des-4"
+      ],
+      "text": "I appreciate the clear feedback. Proud of what we achieved this week.\nWell done on the improved handoff. Excited to keep this success going.",
+      "n_messages": 2,
+      "n_chars": 140,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "u-jordan|2025-08-20|user",
+      "scope": "user",
+      "channel_id": "sandbox-engineering",
+      "channel_name": "Engineering",
+      "user_id": "u-jordan",
+      "user_name": "Jordan Lee",
+      "date": "2025-08-20",
+      "message_ids": [
+        "eng-3"
+      ],
+      "text": "I am disappointed. Raising issues just gets us labeled as unmotivated.",
+      "n_messages": 1,
+      "n_chars": 70,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "u-maya|2025-08-20|user",
+      "scope": "user",
+      "channel_id": "sandbox-design",
+      "channel_name": "Design",
+      "user_id": "u-maya",
+      "user_name": "Maya Brooks",
+      "date": "2025-08-20",
+      "message_ids": [
+        "des-1",
+        "des-3"
+      ],
+      "text": "Great progress on the new flow. Thanks everyone for the collaboration.\nExcellent review today. The team feels motivated and the support has been strong.",
+      "n_messages": 2,
+      "n_chars": 152,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "u-priya|2025-08-20|user",
+      "scope": "user",
+      "channel_id": "sandbox-engineering",
+      "channel_name": "Engineering",
+      "user_id": "u-priya",
+      "user_name": "Priya Shah",
+      "date": "2025-08-20",
+      "message_ids": [
+        "eng-2"
+      ],
+      "text": "Same. I feel unsupported and isolated when I flag risks. It feels unfair.",
+      "n_messages": 1,
+      "n_chars": 73,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "u-riley|2025-08-20|user",
+      "scope": "user",
+      "channel_id": "sandbox-product",
+      "channel_name": "Product",
+      "user_id": "u-riley",
+      "user_name": "Riley Nguyen",
+      "date": "2025-08-20",
+      "message_ids": [
+        "prod-2",
+        "prod-4"
+      ],
+      "text": "The team is burned out and overloaded. Weekend work is becoming normal.\nWe are blocked and late on every sprint. I feel unsupported.",
+      "n_messages": 2,
+      "n_chars": 132,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    },
+    {
+      "window_id": "u-sam|2025-08-20|user",
+      "scope": "user",
+      "channel_id": "sandbox-product",
+      "channel_name": "Product",
+      "user_id": "u-sam",
+      "user_name": "Sam Ortiz",
+      "date": "2025-08-20",
+      "message_ids": [
+        "prod-1",
+        "prod-3"
+      ],
+      "text": "I am overwhelmed and exhausted. This deadline is not realistic.\nI am stressed and behind. If this pressure continues people will quit.",
+      "n_messages": 2,
+      "n_chars": 134,
+      "origin": "cliq",
+      "lang": "en",
+      "script": "latin"
+    }
+  ]
+}
