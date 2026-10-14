@@ -9,8 +9,8 @@ import torch
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-BASE_MODEL = "convaiinnovations/laya"
-FINETUNED_MODEL = os.path.join(SCRIPT_DIR, "laya_finetuned")
+BASE_MODEL =  os.path.join(SCRIPT_DIR, "laya_finetuned") #"convaiinnovations/laya"
+FINETUNED_MODEL = os.path.join(SCRIPT_DIR, "laya_finetuned_v1")
 TEST_PATH = os.path.join(SCRIPT_DIR, "data", "test.jsonl")
 
 DEVICE = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")

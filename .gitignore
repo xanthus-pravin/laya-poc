@@ -48,3 +48,6 @@ training/*.log
 # Temporary / scratch
 *.bak
 *.tmp
+
+training/laya_finetuned_v1
+laya_repo/laya
